@@ -23,11 +23,8 @@ następnym uruchomieniu. Nie trzeba nic robić.
 
 ## Twoje dane
 
-Wszystko zostaje na Twoim komputerze — jeden plik:
-
-```
-%APPDATA%\Budżet domowyudget.db
-```
+Wszystko zostaje na Twoim komputerze — w jednym pliku, w katalogu
+`%APPDATA%` → `Budżet domowy` → `budget.db`.
 
 Nic nie jest nigdzie wysyłane. Kopia zapasowa to po prostu skopiowanie tego pliku.
 
