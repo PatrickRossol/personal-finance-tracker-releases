@@ -4,7 +4,10 @@ Osobisty budżet domowy — instalator dla Windows.
 
 ## Pobieranie
 
-**[Pobierz najnowszą wersję](../../releases/latest)** — plik `Budżet domowy Setup *.exe`.
+**[Pobierz najnowszą wersję](../../releases/latest)** — plik `budzet-domowy-setup-*.exe`.
+
+Na stronie wydania są jeszcze dwa pliki, `latest.yml` i `.blockmap` — **nie pobieraj
+ich**. Program sam z nich korzysta przez internet, żeby sprawdzać aktualizacje.
 
 ## Pierwsze uruchomienie
 
