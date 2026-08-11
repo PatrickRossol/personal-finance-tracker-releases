@@ -47,12 +47,20 @@ Na stronie wydania są też pliki `latest.yml`, `latest-linux.yml` i `.blockmap`
 
 ## Twoje dane
 
-Wszystko zostaje na Twoim komputerze, w jednym pliku:
+Wszystko zostaje na Twoim komputerze. Nic nie jest nigdzie wysyłane.
 
-- Windows: `%APPDATA%` → `Budżet domowy` → `budget.db`
-- Linux: `~/.config/Budżet domowy/budget.db`
+Katalog z danymi:
 
-Nic nie jest nigdzie wysyłane. Kopia zapasowa to po prostu skopiowanie tego pliku.
+- Windows: `%APPDATA%\budzet-domowy`
+- Linux: `~/.config/budzet-domowy`
+
+Są tam **trzy** pliki: `budget.db` oraz `budget.db-wal` i `budget.db-shm`. Razem
+tworzą jedną bazę — do kopii zapasowej skopiuj wszystkie trzy, przy zamkniętym
+programie.
+
+Jeśli wgrywasz gotową bazę z innego komputera: zamknij program, **usuń `budget.db-wal`
+i `budget.db-shm`**, dopiero potem podmień `budget.db`. Sam plik `budget.db` nie
+wystarczy — program dalej pokaże to, co zostało w pliku `-wal`.
 
 ---
 
